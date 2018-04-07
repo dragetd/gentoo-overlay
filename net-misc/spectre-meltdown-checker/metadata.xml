@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>michael.gajda@tu-dortmund.de</email>
+		<name>Michael Gajda</name>
+	</maintainer>
+	<maintainer type="project">
+		<email>proxy-maint@gentoo.org</email>
+		<name>Proxy Maintaienrs</name>
+	</maintainer>
+	<longdescription>Shell script to check for Spectre/Meltdown vulnerability and mitigations.</longdescription>
+</pkgmetadata>
