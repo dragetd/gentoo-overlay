@@ -9,5 +9,8 @@
 		<email>proxy-maint@gentoo.org</email>
 		<name>Proxy Maintaienrs</name>
 	</maintainer>
+	<upstream>
+		<remote-id type="github">speed47/spectre-meltdown-checker</remote-id>
+	</upstream>
 	<longdescription>Shell script to check for Spectre/Meltdown vulnerability and mitigations.</longdescription>
 </pkgmetadata>
