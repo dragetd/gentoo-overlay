@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>michael.gajda@tu-dortmund.de</email>
+		<name>Michael Gajda</name>
+	</maintainer>
+	<maintainer type="project">
+		<email>proxy-maint@gentoo.org</email>
+		<name>Proxy Maintaienrs</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">colindean/optar</remote-id>
+	</upstream>
+	<longdescription>A program to store and encode data efficiently on paper.</longdescription>
+	<use>
+		<flag name="pgm2ps">Enable converting pgm output to postscript using ImageMagic.</flag>
+	</use>
+</pkgmetadata>
