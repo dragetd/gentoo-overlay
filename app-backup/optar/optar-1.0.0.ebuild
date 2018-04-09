@@ -3,14 +3,12 @@
 
 EAPI=6
 
-#inherit eutils
-
 DESCRIPTION="Codec for encoding data on paper"
 HOMEPAGE="https://github.com/colindean/optar"
-SRC_URI="https://github.com/colindean/${PN}/archive/${PV}-colindean.tar.gz -> ${PN}.tar.gz"
+SRC_URI="https://github.com/colindean/${PN}/archive/${PV}-colindean.tar.gz -> ${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="+pgm2ps"
 
 S="${WORKDIR}/${P}-colindean"
